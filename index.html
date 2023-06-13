@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    body{
+        background-image: url("C Shop.jpg");
+          margin: 0;
+        }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: blanchedalmond;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #7c4301;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #b0572e;
+  color: black;
+}
+div.gallery {
+  border: 5px solid black;
+}
+div.gallery img {
+  opacity: 0.8;
+  width: 300;
+  height: 300;
+}
+
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 205px;
+    border-radius: 50%;
+    border: 10px solid #7c4301;
+}
+
+.card {
+    border: 5px solid black;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.card img:hover {
+    opacity: 1;
+}
+</style>
+</head>
+<body>
+
+  <ul>
+    <div class="logo">
+    <p><img src="Cat Cafe.jpg" alt="Cat Cafe"></p>
+    </div>
+    <li><a class="active" href="index.html"target="_self">Home</a></li>
+    <li><a href="account.htm"target="_self">Log in / Account</a></li>
+    <li><a href="menu.htm"target="_self">Menu</a></li>
+    <li><a href="about-us.htm"target="_self">About Us</a></li>
+  </ul>
+  <div style="margin-left:15%;padding:1px 16px;height:1000px;">
+  <h1 style= "background-color:blanchedalmond; font-family: 'Times New Roman', Times, serif; font-size: xxx-large; color: black;"><Center>Hello! Welcome to Cat's Cafe</Center></h1>
+<center><h3 style="background-color:blanchedalmond;font-size: larger; font-family: Garamond,serif; color: black;"> ~Known for Serving Premium Drinks, Quality Pastries and Pet Friendly Place.</h3></center>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="one.jpg" alt="one" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="two.jpg" alt="two" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="three.jpg" alt="three" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="four.jpg" alt="four" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="five.jpg" alt="five" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="six.jpg" alt="six" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="seven.jpg" alt="seven" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="eight.jpg" alt="eight" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="nine.jpg" alt="nine" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="ten.jpg" alt="ten" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="eleven.jpg" alt="eleven" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="card">
+      <img src="twelve.jpg" alt="twelve" width="280" height="270">
+    </div>
+    </a>
+  </div>
+</div>
+</body>
+</html>

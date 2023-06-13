@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    body{
+        background-image: url("C Shop.jpg");
+          margin: 0;
+        }
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: blanchedalmond;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #7c4301;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #b0572e;
+  color: black;
+}
+div.gallery {
+  margin: 50px;
+  border: 5px solid black;
+  float: right;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 5px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.card {
+    border: 5px solid black;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.card img:hover {
+    opacity: 1;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 185px;
+    border-radius: 50%;
+    border: 10px solid #7c4301;
+}
+</style>
+</head>
+<body>
+    <ul>
+        <div class="logo">
+        <p><img src="Cat Cafe.jpg" alt="Cat Cafe"></p>
+        </div>
+        <li><a href="index.html"target="_self">Home</a></li>
+        <li><a href="account.htm"target="_self">Log in / Account</a></li>
+        <li><a class="active" href="menu.htm"target="_self">Menu</a></li>
+        <li><a href="about-us.htm"target="_self">About Us</a></li>
+      </ul>
+      <div style="margin-left: 15%,;padding:1px 16px;height:1000px;">
+        <h1 style= "font-family: 'Times New Roman', Times, serif; font-size: xxx-large; color: navajowhite;"><Center>The Menu</Center></h1>
+        <h3 style="font-family: Garamond, sans-serif; color: whitesmoke;"><center>Click each picture to see the drinks and food that the cafe serves.</center></p>
+      <div class="gallery">
+        <a target="_blank" href="uno.jpg">
+            <div class="card">
+          <img src="uno.jpg" alt="uno" width="600" height="400">
+           </div>
+        </a>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="dos.jpg">
+            <div class="card">
+          <img src="dos.jpg" alt="dos" width="600" height="400">
+           </div>
+        </a>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="tres.jpg">
+            <div class="card">
+          <img src="tres.jpg" alt="tres" width="600" height="400">
+           </div>
+        </a>
+      </div>
+</html>
